@@ -1,0 +1,22 @@
+import { Meta, Story, Canvas, ArgsTable } from '@storybook/addon-docs';
+import Card from './index';
+
+<Meta title="Components/General/Card" component={Card} />
+
+# Card
+
+<ArgsTable of={Card} />
+
+<Canvas>
+  <Story
+    name="Card"
+  >
+    <Card id= '1'
+      imageUrl= {'/img/person.jpeg'}
+      canonicalName= 'Canonical Name'
+      description= 'Description'
+      otherNames={['name 01', 'name 02']}
+     />
+  </Story>
+</Canvas>
+
