@@ -4,6 +4,7 @@ const nextConfig = {
   images: {
     domains: ['media.kitsu.io', 'upload.wikimedia.org'],
   },
+  pageExtensions: ['page.tsx', 'page.ts', 'page.jsx', 'page.js']
 }
 
 module.exports = nextConfig
