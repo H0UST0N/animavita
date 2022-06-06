@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Card from "../../components/general/Card";
 import Characters, { IGetCharacters } from "../../services/api/Characters";
-import { Container, Content, HomeHeader } from "./styles";
+import { Container, Content, HomeHeader } from "../../components/pages/home/styles";
 import GenericDAO from "../../services/api/GenericDAO";
 import Pagination from "../../components/general/Pagination";
 import Header from "../../components/layout/Header";
